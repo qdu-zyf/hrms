@@ -6,6 +6,6 @@
 
 
 
-In addition, the standalone package is also developed by C++ ([Github: hrms](https://github.com/qdu-bioinfo/hierarchical-meta-storms.git)) for direct installation and use under Linux and MAC operating systems.
+In addition, the standalone package is also developed by C++ ([Github: hierarchical-meta-storms](https://github.com/qdu-bioinfo/hierarchical-meta-storms.git)) for direct installation and use under Linux and MAC operating systems.
 
 
