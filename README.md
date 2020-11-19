@@ -97,7 +97,7 @@ Here we provide a demo dataset (Synthetic Dataset 1) with functional KO profiles
 To run the demo, you can either:
 
 ```
-cd example
+cd hrms/example
 sh Readme
 ```
 
