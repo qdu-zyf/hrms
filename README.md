@@ -70,7 +70,13 @@ R CMD INSTALL hrms
 
 ## Automatic Installation by tar.gz package
 
-a. Download the [hrms_1.01.tar.gz](http://bioinfo.single-cell.cn/Released_Software/hierarchical-meta-storms/data/hrms_1.01.tar.gz) package
+**a. Download the [hrms_1.01.tar.gz](http://bioinfo.single-cell.cn/Released_Software/hierarchical-meta-storms/data/hrms_1.01.tar.gz) package**
+
+**b. Install the package in R environment**
+
+```
+install.packages("hrms_1.01.tar.gz")
+```
 
 The package should take less than 1 minute to install on a computer with the specifications recommended above.
 
