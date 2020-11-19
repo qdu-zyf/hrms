@@ -1,6 +1,6 @@
 \name{CompFunc}
 \alias{CompFunc}
-\title{CompFunc}
+\title{Calculates the Distances Among Microbiome Functional Profiles}
 \usage{
 CompFunc(abds, rev = 0, dist_type = 0, is_sim = 0)
 }

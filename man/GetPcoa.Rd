@@ -1,6 +1,6 @@
 \name{GetPcoa}
 \alias{GetPcoa}
-\title{GetPcoa}
+\title{PCoA Implementation}
 \usage{
 GetPcoa(dist_matrix, k = 3)
 }
