@@ -52,7 +52,7 @@ install.packages(c("Rcpp", "RcppArmadillo", "RcppEigen"))
 
 # Installation guide
 
-## Automatic Installation by 
+## Automatic Installation by source code
 
 At present, Hierarchical Meta-Storms provides a fully automatic installer for easy installation.
 
@@ -67,6 +67,10 @@ git clone https://github.com/qdu-bioinfo/hrms.git
 ```
 R CMD INSTALL hrms
 ```
+
+## Automatic Installation by tar.gz package
+
+a. Download the [hrms_1.01.tar.gz](http://bioinfo.single-cell.cn/Released_Software/hierarchical-meta-storms/data/hrms_1.01.tar.gz) package
 
 The package should take less than 1 minute to install on a computer with the specifications recommended above.
 
