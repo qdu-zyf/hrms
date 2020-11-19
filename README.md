@@ -44,7 +44,7 @@ OpenMP library is the C/C++ parallel computing library. Most Linux releases have
 brew install gcc
 ```
 
-The package depends R (>= 2.10) and links to Rcpp, RcppArmadillo and RcppEigen package, you can install these packages in R environment by:
+The package depends C++ (>= 4.7), R (>= 2.10) and links to Rcpp, RcppArmadillo and RcppEigen package, you can install these packages in R environment by:
 
 ```
 install.packages(c("Rcpp", "RcppArmadillo", "RcppEigen"))
