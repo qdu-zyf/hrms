@@ -15,8 +15,6 @@
 
 - [Usage](#usage)
 
-- [Example dataset](#example-dataset)
-
 - [Tools in this package](#tools-in-this-package)
 
 
