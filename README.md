@@ -62,14 +62,12 @@ install.packages("hrms_1.01.tar.gz")
 
 The package should take less than 1 minute to install on a computer with the specifications recommended above.
 
-The example dataset could be found at “example” folder. Check the “example/Readme” for details about the demo run.
-
 # Usage
 
 **a.  Compute the distance matrix**
 
 ```
-CompFunc(abd_matrix, rev=0, dist_type=0, is_sim=0)
+compfunc(abd_matrix, rev=0, dist_type=0, is_sim=0)
 ```
 
 The method returns the pairwise distance or similarity matix.
@@ -77,29 +75,29 @@ The method returns the pairwise distance or similarity matix.
 **b. Implement the PCoA**
 
 ```
-GetPcoa(dist_matrix, k=3)
+pcoa(dist_matrix, k=3)
 ```
 
 The method returns the coordinates matrix of PCoA. 
 
 # Methods in this package
 
-**a. CompFunc**
+**a. compfunc**
 
 It calculates the hierarchical meta-storms distance matrix among microbiome functional profiles. Run:
 
 ```
-?CompFunc
+?compfunc
 ```
 
 in R environment for detailed parameters.
 
-**b. GetPcoa**
+**b. pcoa**
 
 It calculates the PCoA based the distance matrix. Run:
 
 ```
-?GetPcoa
+?pcoa
 ```
 
 in R environment for detailed parameters.

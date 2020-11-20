@@ -1,6 +1,4 @@
-#' install necessary libraries
-#' @param p the list of necessary packages
-#' @param usePackage
+## install necessary libraries
 
 p <- c("Rcpp", "RcppArmadillo", "RcppEigen")
 
