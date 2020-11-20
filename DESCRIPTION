@@ -1,5 +1,4 @@
 Package: hrms
-Encoding: UTF-8
 Type: Package
 Title: Hierarchical Meta-Storms (HMS) Comprehensively Calculates the Dissimilarities of Microbiome Functional Profiles by Considering Multi-Level Metabolic Pathway Hierarchy.
 Version: 1.01
