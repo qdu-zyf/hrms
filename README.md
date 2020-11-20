@@ -48,8 +48,6 @@ The package depends C++ (>= 4.7), R (>= 2.10) and links to Rcpp, RcppArmadillo a
 
 At present, Hierarchical Meta-Storms provides a fully automatic installer for easy installation.
 
-## Automatic Installation by tar.gz package
-
 **a. Download the package**
 
 ```
