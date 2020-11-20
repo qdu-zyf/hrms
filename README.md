@@ -88,28 +88,6 @@ GetPcoa(dist_matrix, k=3)
 
 The method returns the coordinates matrix of PCoA. 
 
-# Example dataset
-
-Here we provide a demo dataset (Synthetic Dataset 1) with functional KO profiles of 30 artificial microbiomes in “data” folder. In this package, “dataset1.ko.abd” is the relative abundance on KOs-level, and “dataset1.meta” is the group information of the samples.
-
-To run the demo, you can either:
-
-```
-cd hrms/example
-sh Readme
-```
-
-or type the following command:
-
-```
-Rscript MS-comp-func.R -i dataset1.ko.abd -o dataset1.dist
-Rscript MS-get-pc.R -d dataset1.dist -m dataset1.meta -o dataset1.pcoa.pdf
-```
-
-Then the output file “dataset1.dist” is the pairwise distance of the 30 samples as well as  "dataset1.pcoa.pdf.pc" is the coordinates results of PCoA based on the distance matrix and "dataset1.pcoa.pdf" is PCoA results printing to pdf format. 
-
-This demo run should take less than 1 minute on a recommended computer.
-
 # Methods in this package
 
 **a. CompFunc**
@@ -117,7 +95,7 @@ This demo run should take less than 1 minute on a recommended computer.
 It calculates the hierarchical meta-storms distance matrix among microbiome functional profiles. Run:
 
 ```
-??CompFunc
+?CompFunc
 ```
 
 in R environment for detailed parameters.
@@ -127,7 +105,7 @@ in R environment for detailed parameters.
 It calculates the PCoA based the distance matrix. Run:
 
 ```
-??GetPcoa
+?GetPcoa
 ```
 
 in R environment for detailed parameters.
