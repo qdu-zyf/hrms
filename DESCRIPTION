@@ -4,10 +4,11 @@ Title: Hierarchical Meta-Storms (HMS) Comprehensively Calculates the Dissimilari
 Version: 1.01
 Date: 2020-11-18
 Author: Zhang Yufeng
-Maintainer: <qdu_bioinfo@163.com>
+Maintainer: qdu-bioinfo <qdu_bioinfo@163.com>
 Description: It contains two core components: *i)* a dissimilarity algorithm that comprehensively calculates the distances among microbiome functional profiles by considering their multi-level metabolic pathway hierarchy among functional gene families, and *ii)* a PCoA implementation optimized by multi-thread parallel computing to rapidly parse out the beta-diversity pattern for thousands of samples. It takes the microbiome functional profiles of KO and their relative abundance as input, and computes and outputs their pairwise distance matrix and then the principle coordinates of PCoA.
 License: GPL-2
 Imports: Rcpp (>= 1.0.4.6)
 LinkingTo: Rcpp, RcppArmadillo, RcppEigen
 Depends: 
 	R (>= 2.10)
+RoxygenNote: 7.1.1
