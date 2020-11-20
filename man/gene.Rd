@@ -1,4 +1,3 @@
-\encoding{UTF-8}
 \name{gene}
 \alias{gene}
 \docType{data}

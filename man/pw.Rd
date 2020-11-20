@@ -1,4 +1,3 @@
-\encoding{UTF-8}
 \name{pw}
 \alias{pw}
 \docType{data}
