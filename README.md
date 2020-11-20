@@ -44,11 +44,7 @@ OpenMP library is the C/C++ parallel computing library. Most Linux releases have
 brew install gcc
 ```
 
-The package depends C++ (>= 4.7), R (>= 2.10) and links to Rcpp, RcppArmadillo and RcppEigen package, you can install these packages in R environment by:
-
-```
-install.packages(c("Rcpp", "RcppArmadillo", "RcppEigen"))
-```
+The package depends C++ (>= 4.7), R (>= 2.10) and links to Rcpp, RcppArmadillo and RcppEigen package.
 
 # Installation guide
 
@@ -56,21 +52,13 @@ install.packages(c("Rcpp", "RcppArmadillo", "RcppEigen"))
 
 At present, Hierarchical Meta-Storms provides a fully automatic installer for easy installation.
 
+## Automatic Installation by tar.gz package
+
 **a. Download the package**
 
 ```
-git clone https://github.com/qdu-bioinfo/hrms.git	
+wget http://bioinfo.single-cell.cn/Released_Software/hierarchical-meta-storms/data/hrms_1.01.tar.gz
 ```
-
-**b. Install the package**
-
-```
-R CMD INSTALL hrms
-```
-
-## Automatic Installation by tar.gz package
-
-**a. Download the [hrms_1.01.tar.gz](http://bioinfo.single-cell.cn/Released_Software/hierarchical-meta-storms/data/hrms_1.01.tar.gz) package**
 
 **b. Install the package in R environment**
 
