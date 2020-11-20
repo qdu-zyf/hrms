@@ -11,9 +11,9 @@ compfunc(abds, rev = 0, dist_type = 0, is_sim = 0)
 
 \item{rev}{logical variable indicating if the abundance matrix is reversed, default is FALSE}
 
-\item{dist_type}{numeric indicating indicating which distance algorithm will be used, 0: HMS, 1: Cosine, 2: Euclidean, 3: Jensen-Shannon, 4: Bray-Curtis, default is 0}
+\item{dist_type}{numeric indicating indicating which distance algorithm will be used, 0-HMS, 1-Cosine, 2-Euclidean, 3-Jensen-Shannon, 4-Bray-Curtis, default is 0}
 
-\item{is_sim}{logical variable indicating whether the result matrix is similarity one or distance one, TRUE: similarity, FALSE: distance, default is FALSE}
+\item{is_sim}{logical variable indicating whether the result matrix is similarity one or distance one, TRUE-similarity, FALSE-distance, default is FALSE}
 }
 \value{
 the pairwise distance (similarity) matrix
