@@ -1,5 +1,28 @@
 #!/bin/bash
-str="CXX_STD = CXX11\nPKG_CXXFLAGS = -Wno-deprecated  \$(SHLIB_OPENMP_CXXFLAGS) -O3\nPKG_LIBS = \$(SHLIB_OPENMP_CXXFLAGS) \$(LAPACK_LIBS) \$(BLAS_LIBS) \$(FLIBS) -Wno-deprecated"
+CC=g++
+VER=""
+if [[ $SHELL = '/bin/zsh' ]];
+then
+	if [ -e "/usr/local/bin/g++-10" ];
+	then
+		VER=-10
+	else
+        	if [ -e "/usr/local/bin/g++-9" ];
+		then
+                	VER=-9
+		else
+			VER=-8
+		fi
+	fi
+	
+	if [ ! -e "/usr/local/bin/clang++" ];
+        then
+                ln -s /usr/local/bin/g++${VER} /usr/local/bin/clang++
+        fi
+
+fi
+
+str="CC=gcc${VER}\nCXX=g++${VER}\nCXX1X=g++${VER}\nFC=gfortran${VER}\nF77=gfortran${VER}"
 
 home=~
 if [ ! -e "$home/.R" ]; then
@@ -12,5 +35,7 @@ else
   mv ~/.R/Makevars ~/.R/Makevars.bak_CustomConfig
   echo -e $str > ~/.R/Makevars
 fi
+
+Rscript R/config.R
 
 
